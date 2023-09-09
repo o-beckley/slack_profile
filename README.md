@@ -1,16 +1,10 @@
-# slack_profile
+# slack_profile: HNG Task 01
 
-A new Flutter project.
+- The slack api is used to fetch my profile info using userId.
+- A slack app needs to be created on slack.com to get an api key.
+# dependencies:
+    1. http: for fetching the slack profile
+    2. webview_flutter: for displaying github content in webview
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- minSdkVersion needs to be set to 19 in android/app/build.gradle for webview to work
+- internet permission must be set in android/app/src/main/AndroidManifest.xml 
